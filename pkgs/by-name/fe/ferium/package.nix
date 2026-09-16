@@ -7,12 +7,12 @@
 
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "ferium";
-  version = "4.7.1";
+  version = "5.0.0-dev";
 
   src = fetchFromGitHub {
     owner = "gorilla-devs";
     repo = "ferium";
-    rev = "v${finalAttrs.version}";
+    rev = "9d6f16a5397edbfde8cbe82c0e6657355105b7e1";
     hash = "sha256-eeQjezB6pRdnPADLgDLo8b+bUSP12gfBhFNt/uYCwHU=";
   };
 
