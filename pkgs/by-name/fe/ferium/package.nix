@@ -16,7 +16,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     hash = "sha256-Y0O/DRAh4+pGgUnibOYsgxLb0iej8zzxDB2gwm+KLpI=";
   };
 
-  cargoHash = "sha256-3YKFKngyLg2ah4GY+LlbPbnVks7/xFawnMf3D1gjmwI=";
+  cargoHash = "sha256-jQxK6o5DZS1BNx3rLeqyyi73ewxy1zyzT8QBted3d7E=";
 
   # Disable the GUI file picker so that GTK/XDG dependencies aren't used
   buildNoDefaultFeatures = true;
