@@ -13,7 +13,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     owner = "gorilla-devs";
     repo = "ferium";
     rev = "9d6f16a5397edbfde8cbe82c0e6657355105b7e1";
-    hash = "sha256-eeQjezB6pRdnPADLgDLo8b+bUSP12gfBhFNt/uYCwHU=";
+    hash = "sha256-Y0O/DRAh4+pGgUnibOYsgxLb0iej8zzxDB2gwm+KLpI=";
   };
 
   cargoHash = "sha256-3YKFKngyLg2ah4GY+LlbPbnVks7/xFawnMf3D1gjmwI=";
